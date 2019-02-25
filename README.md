@@ -9,7 +9,7 @@ frameworks; it's just a small library to do basic testing without worring about
 dependencies or downloading half of the internet to run a couple of assertions.  
 
 
-```
+```js
 fixture("array", function() {
   describe("#new", function() {
     it("Should create an empty array.", function() {
