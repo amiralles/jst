@@ -11,22 +11,22 @@ dependencies or downloading half of the internet to run a couple of assertions.
 
 ```
 fixture("array", function() {
-	describe("#new", function() {
-		it("Should create an empty array.", function() {
-			const arr = new Array();
-			return arr.length === 0;
-		});
-		it("Should fail... :(", function() {
-			// Expected failure.
-		});
-	});
-	describe("#push", function() {
-		it("Should add item to the array.", function() {
-			const arr = new Array();
-			arr.push("foo");
-			return arr.length === 1;
-		});
-	});
+  describe("#new", function() {
+    it("Should create an empty array.", function() {
+      const arr = new Array();
+      return arr.length === 0;
+    });
+    it("Should fail... :(", function() {
+      // Expected failure.
+    });
+  });
+  describe("#push", function() {
+    it("Should add item to the array.", function() {
+      const arr = new Array();
+      arr.push("foo");
+      return arr.length === 1;
+    });
+  });
 });
 
 
